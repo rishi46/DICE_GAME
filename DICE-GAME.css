@@ -1,10 +1,12 @@
 /*body font color , background, font famaly*/
 body{
+	box-sizing: border-box;
 	background-color: #333138;
 	font-family: 'Lobster', cursive;
 	color: #a7c957;
 	margin: 0px;
 	padding: 0px;
+
 
 }
 
@@ -16,9 +18,9 @@ body{
 /*HEADING*/
 	.fontsize{
 
-		font-size: 125px;
-		box-sizing: border-box;
-		margin-top: 1.875rem;
+		font-size: 7.8125rem;
+/*		box-sizing: border-box;
+*/		margin-top: 1.875rem;
 		margin-bottom: 1.25rem;
 
 	}
@@ -38,6 +40,7 @@ body{
 	.img_align{
 		display: flex;
 		justify-content: center;
+
 	}
 	img{
 		width: 9.375rem;
@@ -54,3 +57,67 @@ body{
 		font-size: 18px;
 		margin-top:50px;
 	}
+
+
+@media (max-width: 528px){
+	.fontsize{
+		font-size: 50px;
+		margin-bottom: 30px;
+		
+	}
+
+	.size{
+		font-size: 30px;
+		margin-top: 30px;
+	}
+	.horizontal_align{
+		font-size: 20px;
+	}
+
+	img{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+}	
+
+@media (max-width: 768px  min-height:1024px ){
+	.fontsize{
+		font-size: 80px;
+		margin-bottom: 100px;
+		
+	}
+
+	.size{
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	.horizontal_align{
+		font-size: 20px;
+	}
+
+	img{
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+}	
+
+
+/*@media (max-width: 320px){
+	.fontsize{
+		font-size: 60px;
+		
+	}
+
+	.size{
+		font-size: 30px;
+	}
+
+	.horizontal_align{
+		font-size: 20px;
+	}
+
+}*/
+
+
+
+
