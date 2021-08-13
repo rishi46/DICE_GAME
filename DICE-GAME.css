@@ -1,0 +1,56 @@
+/*body font color , background, font famaly*/
+body{
+	background-color: #333138;
+	font-family: 'Lobster', cursive;
+	color: #a7c957;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+	.center_align{
+		display: flex;
+		justify-content: center;
+	}
+
+/*HEADING*/
+	.fontsize{
+
+		font-size: 125px;
+		box-sizing: border-box;
+		margin-top: 1.875rem;
+		margin-bottom: 1.25rem;
+
+	}
+/*PARA*/
+	.vertical_align{
+		display: flex;
+		justify-content: center;
+		font-family: 'Indie Flower', cursive;
+		
+	}
+
+	.size{
+		font-size: 2.5625rem;
+	}
+
+/*DICE_IMAGE*/
+	.img_align{
+		display: flex;
+		justify-content: center;
+	}
+	img{
+		width: 9.375rem;
+		height: auto;
+	}
+
+
+/*FOOTER*/
+	.horizontal_align{
+		color: white;
+		display: flex;
+		justify-content: center;
+		font-family: 'Indie Flower', cursive;
+		font-size: 18px;
+		margin-top:50px;
+	}
